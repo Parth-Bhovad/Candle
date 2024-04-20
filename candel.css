@@ -1,0 +1,33 @@
+#candel
+{
+  margin:150px;
+}
+
+#flame
+{
+  background-color: #ff9143;
+  margin-bottom: 5px;
+  border-radius:50%;
+  height:70px; 
+  width:50px;
+  animation: Flight 2s linear 0s infinite alternate;
+  box-shadow:0 0 12px 8px yellow ;
+}
+  @keyframes Flight {
+    0% , 100% {
+   
+transform : translateY(0);
+  }
+  50% {
+    transform : translateY(-8px);
+  }
+  
+}
+
+#stem
+{
+  background-color:white;
+  height:200px;
+  width:50px;
+  border-radius:5px;
+}
